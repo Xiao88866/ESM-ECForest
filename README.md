@@ -25,7 +25,7 @@ data/
 models/
 results/
 figures/
-``
+```
 
 ## Installation
 pip install -r requirements.txt
