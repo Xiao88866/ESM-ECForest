@@ -1,0 +1,15 @@
+name: enzyllm_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - scikit-learn
+  - pandas
+  - numpy
+  - joblib
+  - pip:
+      - torch
+      - transformers
+      - fair-esm 
