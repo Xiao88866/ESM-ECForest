@@ -7,9 +7,9 @@ from joblib import load
 from enzyllm_predictor import EnzyLLMPredictor
 
 # Paths for trained models
-EC_CLASSIFIER_PATH = "train_data/ec_classifier.joblib"
-ENZYME_CLASSIFIER_PATH = "train_data/enzyme_classifier.joblib"
-LABEL_ENCODER_PATH = "train_data/ec_label_encoder.joblib"
+EC_CLASSIFIER_PATH = "models/ec_classifier.joblib"
+ENZYME_CLASSIFIER_PATH = "models/enzyme_classifier.joblib"
+LABEL_ENCODER_PATH = "models/ec_label_encoder.joblib"
 
 
 def parse_fasta(fasta_path: str) -> list[tuple[str, str]]:
